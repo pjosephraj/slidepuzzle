@@ -7,16 +7,16 @@ const movArr = ['right', 'bottom', 'left', 'top'];
 let temp;
 
 const imgNumbers = new Image();
-imgNumbers.src = '/images/numbers.jpg';
+imgNumbers.src = 'images/numbers.jpg';
 imgNumbers.id = 'numbers';
 const imgTiger = new Image();
-imgTiger.src = '/images/tiger.jpg';
+imgTiger.src = 'images/tiger.jpg';
 imgTiger.id = 'tiger';
 const imgPeacock = new Image();
-imgPeacock.src = '/images/peacock.jpg';
+imgPeacock.src = 'images/peacock.jpg';
 imgPeacock.id = 'peacock';
 const imgPuppy = new Image();
-imgPuppy.src = '/images/puppy.jpg';
+imgPuppy.src = 'images/puppy.jpg';
 imgPuppy.id = 'puppy';
 
 function selScreen(){
@@ -100,7 +100,7 @@ function gameCanvas(img) {
     new Block(100, 300, 14),
     new Block(200, 300, 15)
   ];
-  
+
   //Canvas event Listener
   function addEventToMove(){
     ctx.canvas.addEventListener('mousedown', function (evt) {
